@@ -1,0 +1,17 @@
+https://crawler-test.com/urls/page_with_hreflang_header_not_ok
+https://crawler-test.com/urls/page_with_hreflang_header_ok
+https://crawler-test.com/urls/url_with_mobile_rel_alt
+https://crawler-test.com/sitemap/only_in_sitemap/1
+https://crawler-test.com/sitemap/only_in_sitemap/2
+https://crawler-test.com/sitemap/only_in_sitemap/3
+https://crawler-test.com/sitemap/disallowed_in_sitemap
+https://crawler-test.com/redirects/redirect_1
+https://crawler-test.com/redirects/redirect_3_302
+https://crawler-test.com/redirects/redirect_4_307
+https://crawler-test.com/robots_protocol/robots_excluded_sitemap_only
+http://robotto.org
+http://deepcrawl.co.uk
+http://semetrical.com
+http://momoweb.co.uk
+http://binarycat.co.uk
+http://lolcats.com

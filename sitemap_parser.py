@@ -17,6 +17,7 @@ class SitemapParser:
         else:
             sitemap_links = [i[9:] for i in sitemap_links]
             for i in sitemap_links:
+                self.count += 1
                 sitemap_list.append(self.parser_sitemap_xml(i))
             return sitemap_list
 
@@ -30,13 +31,12 @@ class SitemapParser:
                 self.count += 1
                 url = str(url)
                 url = url.replace("<loc>", "").replace("</loc>", "")
-                self.str_list += url + '\n'
                 list.append(url)
             return list
         except:
             "Ошибка"
 
-    def url_name_handler(url):
+    def url_name_handler(self, url):
         if url[-3:-1] == 'ru':
             url = url[8:-4]
         else:
